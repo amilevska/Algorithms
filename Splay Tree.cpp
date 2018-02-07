@@ -2,7 +2,7 @@
 #include <cstdio>
 #include <cstdlib>
 using namespace std;
-
+///
 struct splay
 {
 	int key;
