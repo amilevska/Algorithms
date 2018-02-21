@@ -108,7 +108,7 @@ void FibonacciHeap::Fibonnaci_link(node* H1, node* y, node* z)
     z->degree++;
 }
 
-// Unite Nodes in Fibonnaci Heap
+// Unite Nodes
  
 node* FibonacciHeap::Union(node* H1, node* H2)
 {
@@ -313,7 +313,7 @@ void FibonacciHeap::Cut(node* H1, node* x, node* y)
     x->mark = 'F';
 }
 
-// Cascade Cutting in Fibonnaci Heap
+// Cascade Cutting
 
 void FibonacciHeap::Cascase_cut(node* H1, node* y)
 {
@@ -381,7 +381,7 @@ int main()
     while (1)
     {
 
-        cout<<"Operations on Binomial heap:"<<endl;
+        cout<<"Operations on Fibonacci heap:"<<endl;
         cout<<"1)Insert Element in the heap"<<endl;
         cout<<"2)Extract Minimum key node"<<endl;
         cout<<"3)Decrease key of a node"<<endl;
